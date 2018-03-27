@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yyy.djk.dropdownmenu" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+     
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="42f01dcb0fdef1d21a74062ae8c433b9" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="search">
+        </activity>
+        <activity android:name=".FirstPage"
+            android:label="欢迎界面">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InfoActivity"
+            android:label="菜品信息界面">
+
+        </activity>
+        <activity android:name=".ClassfiedActivity"
+            android:label="综合搜索界面">
+
+        </activity>
+
+        <activity android:name=".WalkRouteActivity"
+            android:label="行走路线规划">
+
+        </activity>
+
+        <activity android:name=".WalkRouteDetailActivity"
+            android:label="行走路线规划详细">
+
+        </activity>
+        <activity android:name=".BusRouteDetailActivity"
+            android:label="公交路线">
+
+        </activity>
+        <activity android:name=".DriveRouteDetailActivity"
+            android:label="骑行路线">
+
+        </activity>
+        <activity android:name=".RouteActivity"
+            android:label="路线整合">
+
+        </activity>
+
+        <service android:name="com.amap.api.location.APSService"></service>
+    </application>
+
+</manifest>

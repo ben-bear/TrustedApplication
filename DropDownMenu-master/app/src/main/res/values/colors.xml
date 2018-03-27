@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="gray">#cccccc</color>
+
+    <color name="drop_down_selected">#7B1FA2</color>
+    <color name="drop_down_unselected">#111111</color>
+
+    <color name="mask_color">#88888888</color>
+    <color name="check_bg">#f2f2f2</color>
+    <color name="un_press_color">#9C27B0</color>
+
+    <color name="darkgrey"> #999999</color>
+    <color name="transparent">#00000000</color>
+    <color name="gary">#898989</color>
+    <color name="blue">#4c90f9</color>
+
+    <color name="main_blue">#36ab60</color>
+    <color name="main_gray">#2c2c2c</color>
+    <color name="bg_color">#bfbfbf</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="phone_bg">#f6f6f6</color>
+    <color name="act_background">#efefef</color>
+</resources>
